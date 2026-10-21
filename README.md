@@ -95,3 +95,20 @@ Headless OpenCV Processing
 YOLOv8 Inference Engine
       ↓
 Compliance Summary & Bounding Boxes Output
+
+Project-SHIELD/
+│
+├── app.py                     # Main Streamlit application
+├── requirements.txt           # Python library dependencies
+├── packages.txt               # Linux system dependencies (libGL for Streamlit Cloud)
+├── best.pt                    # Fine-tuned YOLO model weights
+├── README.md                  # Project documentation
+└── assets/                    # Project images and visualizations
+
+git clone [https://github.com/Trinadh555/Project-SHIELD-Smart-Helmet-Identification-and-Enforcement-Using-Deep-Learning.git](https://github.com/Trinadh555/Project-SHIELD-Smart-Helmet-Identification-and-Enforcement-Using-Deep-Learning.git)
+cd Project-SHIELD-Smart-Helmet-Identification-and-Enforcement-Using-Deep-Learning
+
+pip install -r requirements.txt
+
+streamlit run app.py
+
